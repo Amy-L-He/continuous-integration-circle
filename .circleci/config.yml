@@ -14,6 +14,7 @@ jobs:
           command: |
             gem update --system
             gem install bundler:2.1.4
+            bundler update --bundler
 
       - run:
           name: build the jekyll site
