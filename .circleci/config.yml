@@ -13,8 +13,7 @@ jobs:
           name: build dependencies
           command: |
             gem update --system
-            gem install bundler
-            bundler update --bundler
+            gem install bundler:2.1.4
 
       - run:
           name: build the jekyll site
